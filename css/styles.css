@@ -48,7 +48,7 @@ h2 {
 }
 
 button {
-  background: #0078d7;
+  background: #ff93cf;
   color: white;
   border: none;
   padding: 0.5rem;
@@ -57,5 +57,5 @@ button {
 }
 
 button:hover {
-  background: #005fa3;
+  background: #d63482;
 }
