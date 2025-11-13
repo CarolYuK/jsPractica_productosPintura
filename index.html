@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catálogo de Productos Interactivo</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header>
+        <h1>Catálogo de productos de pintura</h1>
+    </header>
+    <main>
+        <section class="buscador_productos">
+            <h2>¿Quieres buscar algún producto?</h2>
+            <form class="formulario_filtrar">
+                <input type="text" class="buscarNombre" placeholder="Buscar por nombre..." />
+                <input type="number" class="buscarPrecio" placeholder="Precio máximo" />
+                <button type="submit">Filtrar</button>
+            </form>
+        </section>
+
+        <section class="destacados">
+            <h2> Destacados:</h2>
+            <div class="productos-container" id="listaDestacados"></div>
+        </section>
+
+        <section class="productos">
+            <h2>Productos de pintura</h2>
+            <div class="productos-container" id="listaProductos"></div>
+        </section>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
