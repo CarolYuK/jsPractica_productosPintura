@@ -6,7 +6,8 @@ body {
 }
 
 header {
-  background: #333;
+  /*background: #333;*/
+  background-image: url(https://parksideresort.com/wp-content/uploads/Museums-and-Galleries-in-the-Smokies-5.jpg);
   color: white;
   text-align: center;
   padding: 1rem;
