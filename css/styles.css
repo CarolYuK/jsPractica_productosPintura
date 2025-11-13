@@ -25,6 +25,11 @@ h2 {
   border-bottom: 2px solid #ccc;
   padding-bottom: 0.3rem;
 }
+.productos{
+  display: flex;
+  align-items: center;
+  align-content: center;
+}
 
 .productos-container {
   display: flex;
